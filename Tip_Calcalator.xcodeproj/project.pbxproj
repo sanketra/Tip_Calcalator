@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1AF59819FF50F300F3C7CF /* TCTipTailoringTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF59719FF50F300F3C7CF /* TCTipTailoringTableViewCell.m */; };
 		CD3E0C0C19FF25C300572CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C0B19FF25C300572CBF /* main.m */; };
 		CD3E0C0F19FF25C300572CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C0E19FF25C300572CBF /* AppDelegate.m */; };
-		CD3E0C1219FF25C300572CBF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C1119FF25C300572CBF /* FirstViewController.m */; };
-		CD3E0C1519FF25C300572CBF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C1419FF25C300572CBF /* SecondViewController.m */; };
+		CD3E0C1219FF25C300572CBF /* TCTipTailoringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C1119FF25C300572CBF /* TCTipTailoringViewController.m */; };
+		CD3E0C1519FF25C300572CBF /* TCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C1419FF25C300572CBF /* TCHomeViewController.m */; };
 		CD3E0C1819FF25C300572CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3E0C1619FF25C300572CBF /* Main.storyboard */; };
 		CD3E0C1A19FF25C300572CBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3E0C1919FF25C300572CBF /* Images.xcassets */; };
 		CD3E0C1D19FF25C300572CBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3E0C1B19FF25C300572CBF /* LaunchScreen.xib */; };
 		CD3E0C2919FF25C300572CBF /* Tip_CalcalatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C2819FF25C300572CBF /* Tip_CalcalatorTests.m */; };
+		CD3E0C3419FF267800572CBF /* TCConfigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E0C3319FF267800572CBF /* TCConfigureViewController.m */; };
+		CD9B10771A980418004E0602 /* swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B10761A980418004E0602 /* swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD1AF59619FF50F300F3C7CF /* TCTipTailoringTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTipTailoringTableViewCell.h; sourceTree = "<group>"; };
+		CD1AF59719FF50F300F3C7CF /* TCTipTailoringTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTipTailoringTableViewCell.m; sourceTree = "<group>"; };
 		CD3E0C0619FF25C300572CBF /* Tip_Calcalator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip_Calcalator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3E0C0A19FF25C300572CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3E0C0B19FF25C300572CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD3E0C0D19FF25C300572CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD3E0C0E19FF25C300572CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD3E0C1019FF25C300572CBF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CD3E0C1119FF25C300572CBF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		CD3E0C1319FF25C300572CBF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		CD3E0C1419FF25C300572CBF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CD3E0C1019FF25C300572CBF /* TCTipTailoringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTipTailoringViewController.h; sourceTree = "<group>"; };
+		CD3E0C1119FF25C300572CBF /* TCTipTailoringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTipTailoringViewController.m; sourceTree = "<group>"; };
+		CD3E0C1319FF25C300572CBF /* TCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCHomeViewController.h; sourceTree = "<group>"; };
+		CD3E0C1419FF25C300572CBF /* TCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCHomeViewController.m; sourceTree = "<group>"; };
 		CD3E0C1719FF25C300572CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD3E0C1919FF25C300572CBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD3E0C1C19FF25C300572CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD3E0C2219FF25C300572CBF /* Tip_CalcalatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tip_CalcalatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3E0C2719FF25C300572CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3E0C2819FF25C300572CBF /* Tip_CalcalatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalcalatorTests.m; sourceTree = "<group>"; };
+		CD3E0C3219FF267800572CBF /* TCConfigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConfigureViewController.h; sourceTree = "<group>"; };
+		CD3E0C3319FF267800572CBF /* TCConfigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConfigureViewController.m; sourceTree = "<group>"; };
+		CD9B10751A980418004E0602 /* Tip_Calcalator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tip_Calcalator-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD9B10761A980418004E0602 /* swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +95,20 @@
 			children = (
 				CD3E0C0D19FF25C300572CBF /* AppDelegate.h */,
 				CD3E0C0E19FF25C300572CBF /* AppDelegate.m */,
-				CD3E0C1019FF25C300572CBF /* FirstViewController.h */,
-				CD3E0C1119FF25C300572CBF /* FirstViewController.m */,
-				CD3E0C1319FF25C300572CBF /* SecondViewController.h */,
-				CD3E0C1419FF25C300572CBF /* SecondViewController.m */,
+				CD1AF59619FF50F300F3C7CF /* TCTipTailoringTableViewCell.h */,
+				CD1AF59719FF50F300F3C7CF /* TCTipTailoringTableViewCell.m */,
+				CD3E0C1019FF25C300572CBF /* TCTipTailoringViewController.h */,
+				CD3E0C1119FF25C300572CBF /* TCTipTailoringViewController.m */,
+				CD3E0C1319FF25C300572CBF /* TCHomeViewController.h */,
+				CD3E0C1419FF25C300572CBF /* TCHomeViewController.m */,
+				CD3E0C3219FF267800572CBF /* TCConfigureViewController.h */,
+				CD3E0C3319FF267800572CBF /* TCConfigureViewController.m */,
 				CD3E0C1619FF25C300572CBF /* Main.storyboard */,
 				CD3E0C1919FF25C300572CBF /* Images.xcassets */,
 				CD3E0C1B19FF25C300572CBF /* LaunchScreen.xib */,
 				CD3E0C0919FF25C300572CBF /* Supporting Files */,
+				CD9B10761A980418004E0602 /* swift.swift */,
+				CD9B10751A980418004E0602 /* Tip_Calcalator-Bridging-Header.h */,
 			);
 			path = Tip_Calcalator;
 			sourceTree = "<group>";
@@ -173,6 +188,7 @@
 				TargetAttributes = {
 					CD3E0C0519FF25C300572CBF = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 7T6S9Z594U;
 					};
 					CD3E0C2119FF25C300572CBF = {
 						CreatedOnToolsVersion = 6.1;
@@ -224,9 +240,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3E0C1519FF25C300572CBF /* SecondViewController.m in Sources */,
+				CD3E0C1519FF25C300572CBF /* TCHomeViewController.m in Sources */,
+				CD9B10771A980418004E0602 /* swift.swift in Sources */,
+				CD1AF59819FF50F300F3C7CF /* TCTipTailoringTableViewCell.m in Sources */,
+				CD3E0C3419FF267800572CBF /* TCConfigureViewController.m in Sources */,
 				CD3E0C0F19FF25C300572CBF /* AppDelegate.m in Sources */,
-				CD3E0C1219FF25C300572CBF /* FirstViewController.m in Sources */,
+				CD3E0C1219FF25C300572CBF /* TCTipTailoringViewController.m in Sources */,
 				CD3E0C0C19FF25C300572CBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +368,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tip_Calcalator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tip_Calcalator/Tip_Calcalator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,9 +386,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tip_Calcalator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tip_Calcalator/Tip_Calcalator-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +452,7 @@
 				CD3E0C2E19FF25C300572CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD3E0C2F19FF25C300572CBF /* Build configuration list for PBXNativeTarget "Tip_CalcalatorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +461,7 @@
 				CD3E0C3119FF25C300572CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
